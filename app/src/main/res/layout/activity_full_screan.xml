@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".home.ResisterActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/border_bottom"
+        android:padding="8dp" >
+
+        <ImageView
+            android:id="@+id/fs_back_btn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="16dp"
+            android:src="@drawable/ic_arrow" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/fs_date_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2020.12.25"
+            android:textSize="32dp"
+            />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:id="@+id/fs_menu_btn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="12dp"
+            android:src="@drawable/ic_more"></ImageView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageView
+            android:padding="8dp"
+            android:id="@+id/fs_photo_image"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="3dp"
+            android:src="@color/cardview_dark_background" />
+
+        <ScrollView
+            android:id="@+id/fs_contents_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp">
+
+            <TextView
+                android:id="@+id/fs_contents_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="행복한 하루\n오늘 하루의 행복한 감정을 목소리로 녹음해보세요~!"
+                android:textSize="20dp" />
+
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fs_recode_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <SeekBar
+            android:id="@+id/fs_seek_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/current_time_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="00:00" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/duration_time_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:text="01:00" />
+        </LinearLayout>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fs_play_btn"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_margin="8sp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginRight="48dp"
+            android:backgroundTint="#E91E1E"
+            android:src="@drawable/ic_play"
+            app:borderWidth="0dp"
+            app:elevation="0dp"
+            app:fabCustomSize="70dp" />
+    </LinearLayout>
+</LinearLayout>
