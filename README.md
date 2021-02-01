@@ -25,8 +25,21 @@
 ## 5. 데이터베이스 스키마
 
 CREATE TABLE TABLE_NAME (
-<br> 　　　　　**ID** INTEGER PRIMARY KEY AUTOINCREMENT,
+<br> 　　　　　**_ID** INTEGER PRIMARY KEY AUTOINCREMENT,
 <br> 　　　　　**DATE** TEXT,
 <br> 　　　　　**CONTENTS** TEXT,
 <br> 　　　　　**PHOTO_PATH** TEXT,
 <br> 　　　　　**RECODE_PATH** TEXT );
+<br>
+
+1. TABLE_NAME : 테이블 이름 정의
+<br>2. _ID : 일기의 고유 번호, 기본키로 정의하며 일기가 생성 시 자동으로
+숫자가 1씩 증가
+<br>3. DATE : 일기의 날짜, 2020-12-02 형태로 저장
+<br>4. CONTENTS : 일기의 내용, 텍스트로 저장
+<br>5. PHOTO_PATH : 일기의 사진을 내장 메모리(외부 저장소)에 저장
+하고 경로를 DB에 저장하여 사진에 접근
+해당 경로는 다음과 같다. “/storage/emulated/0/Mydiary/picture/파일명.jpeg”
+<br>6. RECODE_PATH : 일기의 녹음 파일을 내장 메모리(외부 저장소)에 저장하고 경로를 DB에 저장하여 녹음 파일에 접근
+ 해당 경로는 다음과 같다. “/storage/emulated/0/Mydiary/recode/파일명.mp3”
+
