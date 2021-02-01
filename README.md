@@ -21,12 +21,7 @@
 
 ## 4. 화면 상세 (인터페이스) & 기능 설명
 
-| Tables   |      Are      |  Cool |
-|----------|---------------|-------|
-| col 1 is |  * left-aligned
-              * hello              | $1600 |
-| col 2 is |    centered   |   $12 |
-| col 3 is | right-aligned |    $1 |
+<br>
 
 ## 5. 데이터베이스 스키마
 
