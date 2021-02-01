@@ -1,4 +1,4 @@
-# AudioDiary (안드로이드 음성일기 앱)
+# AudioDiary (안드로이드 음성일기 앱)❤️❤️
 
 ## 1. 소개
 로컬 데이터베이스를 이용하여 CRUD 환경이 갖추어진 일기 어플리케이션이다. 본 앱은 일기 데이터에 사진과 음성 녹음 기능을 포함한다.
@@ -21,23 +21,23 @@
 
 ## 4. 화면 상세 (인터페이스) & 기능 설명
 
-### 1. 메인화면
+### 4-1. 메인화면
 <img src="readme_images/image1.png" height="500">
 <br>
 
-### 2. 일기 생성 & 수정 화면
+### 4-2. 일기 생성 & 수정 화면
 <img src="readme_images/image2.png" height="500">
 <br>
 
-### 3. 일기 모아보기 (간략히 보기)
+### 4-3. 일기 모아보기 (간략히 보기)
 <img src="readme_images/image3.png" height="500">
 <br>
 
-### 4. 일기 보기 (상세 화면)
+### 4-4. 일기 보기 (상세 화면)
 <img src="readme_images/image4.png" height="500">
 <br>
 
-### 5. 일기 검색
+### 4-5. 일기 검색
 <img src="readme_images/image5.png" height="500">
 
 <br>
