@@ -30,6 +30,7 @@ CREATE TABLE TABLE_NAME (
 <br> 　　　　　**CONTENTS** TEXT,
 <br> 　　　　　**PHOTO_PATH** TEXT,
 <br> 　　　　　**RECODE_PATH** TEXT );
+
 <br>
 
 1. TABLE_NAME : 테이블 이름 정의
