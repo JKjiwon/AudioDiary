@@ -4,6 +4,6 @@
 로컬 데이터베이스를 이용하여 CRUD 환경이 갖추어진 일기 안드로이드 어플리케이션이다. 본 앱은 일기 데이터에 사진과 음성 녹음 기능을 포함한다.
 
 ## 2. 프로젝트 구현 환경
-* Language           :	JAVA 11.0.9
-* IDE                :	안드로이드 스튜디오 4.1.1
-* Minimum SDK	API 26 : Android 8.0 (Oreo)
+* **Language**           :	JAVA 11.0.9
+* **IDE**                :	안드로이드 스튜디오 4.1.1
+* **Minimum SDK**        :	API 26, Android 8.0 (Oreo)
