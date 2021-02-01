@@ -8,12 +8,12 @@
 ## 2. 프로젝트 구현 환경
 * **Language**           :	JAVA 11.0.9
 * **IDE**                :	안드로이드 스튜디오 4.1.1
-* **Minimum SDK**        :	API 26, Android 8.0 (Oreo)
+* **Minimum SDK**        :	API 26 Android 8.0 (Oreo)
 
 <br>
 
 ## 3. 프로젝트 테스트 환경
-* **Test SDK	API 29** : Android 10.0 (Q)
+* **Test SDK** : API 29 Android 10.0 (Q)
 * 안드로이드 스튜디오에서 제공하는 에뮬레이터를 사용하였을 때는 외부 저장소(사진과 녹음 파일 저장) 이용이 원활하지 않아 제대로 테스트 할 수 없었다.
 * 가급적이면 개인 단말기를 사용하여 테스트 할 것을 권장한다.
 
