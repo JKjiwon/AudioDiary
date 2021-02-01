@@ -27,6 +27,6 @@
 CREATE TABLE TABLE_NAME (
 <br> 　　　　　**ID** INTEGER PRIMARY KEY AUTOINCREMENT,
 <br> 　　　　　**DATE** TEXT,
-<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**CONTENTS** TEXT,
-<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**PHOTO_PATH** TEXT,
-<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**RECODE_PATH** TEXT );
+<br> 　　　　　**CONTENTS** TEXT,
+<br> 　　　　　**PHOTO_PATH** TEXT,
+<br> 　　　　　**RECODE_PATH** TEXT );
