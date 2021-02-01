@@ -25,8 +25,8 @@
 ## 5. 데이터베이스 스키마
 
 CREATE TABLE TABLE_NAME (
-<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**ID** INTEGER PRIMARY KEY AUTOINCREMENT,
-<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**DATE** TEXT,
+<br> 　　　　　**ID** INTEGER PRIMARY KEY AUTOINCREMENT,
+<br> 　　　　　**DATE** TEXT,
 <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**CONTENTS** TEXT,
 <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**PHOTO_PATH** TEXT,
 <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**RECODE_PATH** TEXT );
