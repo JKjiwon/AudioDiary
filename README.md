@@ -20,7 +20,7 @@
 <br>
 
 ## 4. 화면 상세 (인터페이스) & 기능 설명
-
+<img src="readme_images/image1.png">
 <br>
 
 ## 5. 데이터베이스 스키마
